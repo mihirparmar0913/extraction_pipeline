@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Pytest
+.pytest_cache/
+.coverage
+
+# Pipeline runtime artefacts
+.cache/
+results/
+*.pdf
+*.docx
+
+# Credentials / local config — never commit API keys
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/

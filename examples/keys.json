@@ -1,0 +1,16 @@
+{
+  "parties": [
+    { "Key": "landlord_name", "Description": "The full legal name of the landlord (lessor)." },
+    { "Key": "tenant_name", "Description": "The full legal name of the tenant (lessee)." }
+  ],
+  "unit": [
+    { "Key": "unit_address", "Description": "The textual address that identifies a Unit." },
+    { "Key": "unit_postcode", "Description": "The postal code of the Unit." }
+  ],
+  "lease": [
+    { "Key": "lease_start_date", "Description": "The date the lease term commences." },
+    { "Key": "lease_end_date", "Description": "The date the lease term expires." },
+    { "Key": "annual_rent", "Description": "The annual rent payable, as a number in the lease currency." },
+    { "Key": "has_break_clause", "Description": "True if the tenant or landlord may terminate early under a break clause." }
+  ]
+}
